@@ -4,13 +4,13 @@
     
 }
 .weather{
-    width: 380px;
-    padding: 30px;
-    border-radius: 10px;
+    width: 20rem;
+    padding: 3rem;
+    border-radius: 1rem;
   background-color: blue;
     text-align: center;
     color: white;
-    margin: 50px auto;
+    margin: 5rem auto;
    
   
    
@@ -24,47 +24,47 @@
 .search input{
     border:none;
     outline: 0;
-    padding: 12px 25px;
-    font-size: 18px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
     background-color: rgb(222, 237,243);
     color: black;
-    border-radius: 30px;
+    border-radius: 1rem;
     flex: 1;
-    margin-right: 12px;
+    margin-right: 1rem;
 
 }
 .search button{
     border: none;
     outline: 0;
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     cursor: pointer;
 }
 .search button img{
-    width: 20px;
+    width: 1rem;
 }
 .winfo .icon {
-    margin-top: 20px;
-    width: 170px;
+    margin-top: 2rem;
+    width: 8rem;
 
 }
 .winfo h1{
-    font-size: 70px;
+    font-size: 3rem;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 .winfo h2{
-    font-size: 40px;
+    font-size: 4em;
     font-weight: 400;
-    margin-top: -40px;
+    margin-top: -0.5em;
 }
 .details{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
-    margin-top: 50px;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
 }
 .details .col{
 display: flex;
@@ -72,13 +72,94 @@ align-items: center;
 text-align:left ;
 }
 .details .col img {
-    width: 45px;
-    margin-right: 10px;
+    width: 2rem;
+    margin-right: 1rem;
 }
 .humidity, .wind{
-    font-size: 20px;
+    font-size: 1em;
 
 }
 .humidity p, .wind p{
-    margin: 0px;
+    margin: 0rem;
 }
+@media (min-width:320px)  {
+    .weather{
+        width: 15rem;
+        padding: 0.5rem;
+        border-radius: 0.5em;
+      background-color: blue;
+        text-align: center;
+        color: white;
+        margin: 1rem auto;
+       
+      
+       
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .search input{
+        border:none;
+        outline: 0;
+        padding: 0.5em 0.5em;
+        font-size: 0.7em;
+        background-color: rgb(222, 237,243);
+        color: black;
+        border-radius: 0.5rem;
+        flex: 1;
+        margin-right: 0.5rem;
+    
+    }
+    .search button{
+        border: none;
+        outline: 0;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .search button img{
+        width: 0.5rem;
+    }
+    .winfo .icon {
+        margin-top: 1rem;
+        width: 8rem;
+    
+    }
+    .winfo h1{
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 0.5rem;
+    }
+    .winfo h2{
+        font-size: 2em;
+        font-weight: 200;
+        margin-top: 0.5em;
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        margin-top: 0.5rem;
+    }
+    .details .col{
+    display: flex;
+    align-items: center;
+    text-align:left ;
+    }
+    .details .col img {
+        width: 1rem;
+        margin-right: 0.5rem;
+    }
+    .humidity, .wind{
+        font-size: 0.8em;
+    
+    }
+    .humidity p, .wind p{
+        margin: 0rem;
+    }
+ }
